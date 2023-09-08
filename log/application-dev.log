@@ -1,0 +1,1157 @@
+[2023-09-08 11:26:17][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:26:17][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:26:17][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : The Class-Path manifest attribute in C:\Users\i7C-\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/i7C-/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[2023-09-08 11:26:17][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-09-08 11:26:17][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-09-08 11:26:19][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:26:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:26:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:26:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:26:19][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 1533 ms
+[2023-09-08 11:26:20][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:26:20][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:26:20][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:26:20][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 3.275 seconds (process running for 4.262)
+[2023-09-08 11:26:26][http-nio-80-exec-1][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-08 11:26:26][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 532) : Initializing Servlet 'dispatcherServlet'
+[2023-09-08 11:26:26][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 554) : Completed initialization in 1 ms
+[2023-09-08 11:35:18][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2023-09-08 11:35:18][Thread-5][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:35:18][Thread-5][INFO ](DirectJDKLog.java: log(): 173) : Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-09-08 11:35:18][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:35:18][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:35:19][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:35:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:35:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:35:19][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:35:19][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 1011 ms
+[2023-09-08 11:35:19][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:35:19][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:35:19][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:35:19][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 1.555 seconds (process running for 543.59)
+[2023-09-08 11:35:19][restartedMain][INFO ](ConditionEvaluationDeltaLoggingListener.java: onApplicationEvent(): 63) : Condition evaluation unchanged
+[2023-09-08 11:35:22][http-nio-80-exec-1][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-09-08 11:35:22][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 532) : Initializing Servlet 'dispatcherServlet'
+[2023-09-08 11:35:22][http-nio-80-exec-1][INFO ](FrameworkServlet.java: initServletBean(): 554) : Completed initialization in 1 ms
+[2023-09-08 11:45:14][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+[2023-09-08 11:45:14][Thread-7][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:45:14][Thread-7][INFO ](DirectJDKLog.java: log(): 173) : Destroying Spring FrameworkServlet 'dispatcherServlet'
+[2023-09-08 11:45:14][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:45:14][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:45:15][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:45:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:45:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:45:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:45:15][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 502 ms
+[2023-09-08 11:45:15][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:45:16][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:45:16][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:45:16][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 1.709 seconds (process running for 1140.163)
+[2023-09-08 11:45:16][restartedMain][INFO ](ConditionEvaluationDeltaLoggingListener.java: onApplicationEvent(): 63) : Condition evaluation unchanged
+[2023-09-08 11:46:41][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+[2023-09-08 11:46:41][Thread-11][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:46:41][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:46:41][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:46:42][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:46:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:46:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:46:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:46:42][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 809 ms
+[2023-09-08 11:46:42][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:46:42][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:46:42][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:46:42][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 1.367 seconds (process running for 1226.639)
+[2023-09-08 11:46:42][restartedMain][INFO ](ConditionEvaluationDeltaLoggingListener.java: onApplicationEvent(): 63) : Condition evaluation unchanged
+[2023-09-08 11:46:50][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+[2023-09-08 11:46:50][Thread-15][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:46:51][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:46:51][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:46:51][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:46:51][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:46:51][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:46:51][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:46:51][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 941 ms
+[2023-09-08 11:46:52][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:46:52][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:46:52][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:46:52][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 1.266 seconds (process running for 1236.058)
+[2023-09-08 11:46:52][restartedMain][INFO ](ConditionEvaluationDeltaLoggingListener.java: onApplicationEvent(): 63) : Condition evaluation unchanged
+[2023-09-08 11:46:57][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 6 class path changes (3 additions, 3 deletions, 0 modifications)
+[2023-09-08 11:46:57][Thread-19][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:46:57][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:46:57][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:46:57][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:46:57][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:46:57][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:46:57][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:46:57][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 661 ms
+[2023-09-08 11:46:57][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:46:57][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:46:57][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:46:57][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 0.888 seconds (process running for 1241.833)
+[2023-09-08 11:46:57][restartedMain][INFO ](ConditionEvaluationDeltaLoggingListener.java: onApplicationEvent(): 63) : Condition evaluation unchanged
+[2023-09-08 11:47:05][File Watcher][INFO ](LocalDevToolsAutoConfiguration.java: onApplicationEvent(): 211) : Restarting due to 21 class path changes (6 additions, 6 deletions, 9 modifications)
+[2023-09-08 11:47:05][Thread-23][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:05][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:05][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:05][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:05][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 294 ms
+[2023-09-08 11:47:05][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\service\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+[2023-09-08 11:47:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:05][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:05][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\service\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1682) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:550) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 62 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 63 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 71 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 73 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 77 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 79 common frames omitted
+[2023-09-08 11:47:12][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:12][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:12][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:47:12][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:12][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:12][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:12][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:12][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 765 ms
+[2023-09-08 11:47:12][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\domain\member\service\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.mapper.MemberMapper' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:47:12][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:12][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:12][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.domain.member.service.MemberServiceImpl required a bean of type 'com.ezen.go90.domain.member.mapper.MemberMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.mapper.MemberMapper' in your configuration.
+
+[2023-09-08 11:47:17][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:17][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:18][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:47:18][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:18][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:18][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:18][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:18][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 642 ms
+[2023-09-08 11:47:18][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\web\member\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:47:18][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:18][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:18][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.web.member.controller.MemberController required a bean of type 'com.ezen.go90.domain.member.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.service.MemberService' in your configuration.
+
+[2023-09-08 11:47:44][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:44][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:44][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:47:44][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:44][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 333 ms
+[2023-09-08 11:47:44][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\web\member\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:47:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:44][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:44][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.web.member.controller.MemberController required a bean of type 'com.ezen.go90.domain.member.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.service.MemberService' in your configuration.
+
+[2023-09-08 11:47:49][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:49][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:50][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:47:50][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:50][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:50][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:50][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:50][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 310 ms
+[2023-09-08 11:47:50][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\web\member\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:47:50][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:50][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:50][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.web.member.controller.MemberController required a bean of type 'com.ezen.go90.domain.member.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.service.MemberService' in your configuration.
+
+[2023-09-08 11:47:55][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:47:55][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:47:55][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:47:55][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:47:55][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:47:55][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:47:55][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:47:55][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 299 ms
+[2023-09-08 11:47:55][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\web\member\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:47:55][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:47:55][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:47:55][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.web.member.controller.MemberController required a bean of type 'com.ezen.go90.domain.member.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.service.MemberService' in your configuration.
+
+[2023-09-08 11:48:05][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:48:05][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:48:05][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:48:05][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:48:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:48:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:48:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:48:05][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 279 ms
+[2023-09-08 11:48:05][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberController' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\springmvc\web\member\controller\MemberController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ezen.go90.domain.member.service.MemberService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+[2023-09-08 11:48:05][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:48:05][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:48:05][restartedMain][ERROR](LoggingFailureAnalysisReporter.java: report(): 40) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ezen.springmvc.web.member.controller.MemberController required a bean of type 'com.ezen.go90.domain.member.service.MemberService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ezen.go90.domain.member.service.MemberService' in your configuration.
+
+[2023-09-08 11:48:15][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:48:15][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:48:15][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:48:15][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:48:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:48:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:48:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:48:15][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 297 ms
+[2023-09-08 11:48:15][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:48:15][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:48:15][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:48:15][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:48:15][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:48:20][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:48:20][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:48:20][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:48:20][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:48:20][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:48:20][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:48:20][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:48:20][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 492 ms
+[2023-09-08 11:48:21][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:48:21][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:48:21][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:48:21][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:48:21][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:48:24][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:48:24][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:48:24][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:48:24][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:48:24][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:48:24][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:48:24][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:48:24][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 805 ms
+[2023-09-08 11:48:24][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:48:25][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:48:25][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:48:25][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:48:25][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:49:03][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:49:03][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:49:03][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:49:04][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:49:04][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:49:04][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:49:04][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:49:04][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 751 ms
+[2023-09-08 11:49:04][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:49:04][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:49:04][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:49:04][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:49:04][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:49:44][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:49:44][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:49:44][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:49:44][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:49:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:49:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:49:44][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:49:44][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 295 ms
+[2023-09-08 11:49:45][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:49:45][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:49:45][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:49:45][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:49:45][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:50:00][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:50:00][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:50:00][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:50:00][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:50:00][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:50:00][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:50:00][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:50:00][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 523 ms
+[2023-09-08 11:50:00][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:50:01][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:50:01][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:50:01][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:50:01][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 25 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 33 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 35 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 39 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 41 common frames omitted
+[2023-09-08 11:50:09][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:50:09][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:50:09][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:50:10][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:50:10][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:50:10][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:50:10][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:50:10][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 548 ms
+[2023-09-08 11:50:10][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:50:10][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:50:10][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:50:10][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:50:10][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 23 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 32 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 34 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 40 common frames omitted
+[2023-09-08 11:51:42][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 940 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:51:42][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:51:42][restartedMain][WARN ](Logger.java: warn(): 44) : No MyBatis mapper was found in '[com.ezen.springmvc]' package. Please check your configuration.
+[2023-09-08 11:51:42][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:51:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:51:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:51:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:51:42][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 218 ms
+[2023-09-08 11:51:42][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:51:42][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+[2023-09-08 11:51:42][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:51:42][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:51:42][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar:6.0.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.2.jar:3.1.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.2.jar:3.1.2]
+	at com.ezen.springmvc.SpringMvcApplication.main(SpringMvcApplication.java:10) ~[main/:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor38.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.1.2.jar:3.1.2]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171) ~[spring-beans-6.0.11.jar:6.0.11]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 23 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189) ~[mybatis-spring-boot-autoconfigure-3.0.1.jar:3.0.1]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139) ~[spring-beans-6.0.11.jar:6.0.11]
+	... 24 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613) ~[mybatis-spring-3.0.1.jar:3.0.1]
+	... 32 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121) ~[mybatis-3.5.11.jar:3.5.11]
+	... 34 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116) ~[mybatis-3.5.11.jar:3.5.11]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261) ~[mybatis-3.5.11.jar:3.5.11]
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124) ~[mybatis-3.5.11.jar:3.5.11]
+	... 40 common frames omitted
+[2023-09-08 11:52:36][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 4036 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:52:36][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:52:36][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : The Class-Path manifest attribute in C:\Users\i7C-\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/i7C-/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[2023-09-08 11:52:36][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-09-08 11:52:36][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-09-08 11:52:37][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:52:37][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:52:37][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:52:37][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:52:37][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 1401 ms
+[2023-09-08 11:52:38][restartedMain][WARN ](AbstractApplicationContext.java: refresh(): 616) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\go90\domain\member\service\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\go90\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+[2023-09-08 11:52:38][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Stopping service [Tomcat]
+[2023-09-08 11:52:38][restartedMain][INFO ](ConditionEvaluationReportLogger.java: logMessage(): 82) : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2023-09-08 11:52:38][restartedMain][ERROR](SpringApplication.java: reportFailure(): 824) : Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'memberServiceImpl' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\go90\domain\member\service\MemberServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\go90\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:245)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1189)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295)
+	at com.ezen.go90.SpringMvcApplication.main(SpringMvcApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'memberMapper' defined in file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\com\ezen\go90\domain\member\mapper\MemberMapper.class]: Cannot resolve reference to bean 'sqlSessionTemplate' while setting bean property 'sqlSessionTemplate'
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:377)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveValueIfNecessary(BeanDefinitionValueResolver.java:135)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyPropertyValues(AbstractAutowireCapableBeanFactory.java:1682)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'sqlSessionTemplate' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Unsatisfied dependency expressed through method 'sqlSessionTemplate' parameter 0: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:550)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.support.BeanDefinitionValueResolver.resolveReference(BeanDefinitionValueResolver.java:365)
+	... 38 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.class]: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:659)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:647)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1162)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:560)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1417)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:888)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 48 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception with message: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:171)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:655)
+	... 62 common frames omitted
+Caused by: java.io.IOException: Failed to parse mapping resource: 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:615)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:492)
+	at org.mybatis.spring.SqlSessionFactoryBean.getObject(SqlSessionFactoryBean.java:635)
+	at org.mybatis.spring.boot.autoconfigure.MybatisAutoConfiguration.sqlSessionFactory(MybatisAutoConfiguration.java:189)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:139)
+	... 63 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [C:\ezen-fullstack\workspace\final_project_go90\bin\main\mybatis\mapper\member\MemberMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:613)
+	... 71 common frames omitted
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:76)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:138)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:131)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:121)
+	... 73 common frames omitted
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'Member'.  Cause: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:128)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
+	... 77 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Cannot find class: Member
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:124)
+	... 79 common frames omitted
+[2023-09-08 11:54:20][restartedMain][INFO ](StartupInfoLogger.java: logStarting(): 51) : Starting SpringMvcApplication using Java 17.0.7 with PID 11820 (C:\ezen-fullstack\workspace\final_project_go90\bin\main started by i7C- in C:\ezen-fullstack\workspace\final_project_go90)
+[2023-09-08 11:54:20][restartedMain][INFO ](SpringApplication.java: logStartupProfileInfo(): 634) : No active profile set, falling back to 1 default profile: "dev"
+[2023-09-08 11:54:20][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : The Class-Path manifest attribute in C:\Users\i7C-\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc8\21.9.0.0\a68f29ad2376bdb8c04a87cda70c62907995855d\ojdbc8-21.9.0.0.jar referenced one or more files that do not exist: file:/C:/Users/i7C-/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc8/21.9.0.0/a68f29ad2376bdb8c04a87cda70c62907995855d/oraclepki.jar
+[2023-09-08 11:54:20][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+[2023-09-08 11:54:20][restartedMain][INFO ](DeferredLog.java: logTo(): 250) : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+[2023-09-08 11:54:22][restartedMain][INFO ](TomcatWebServer.java: initialize(): 108) : Tomcat initialized with port(s): 80 (http)
+[2023-09-08 11:54:22][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting service [Tomcat]
+[2023-09-08 11:54:22][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Starting Servlet engine: [Apache Tomcat/10.1.11]
+[2023-09-08 11:54:22][restartedMain][INFO ](DirectJDKLog.java: log(): 173) : Initializing Spring embedded WebApplicationContext
+[2023-09-08 11:54:22][restartedMain][INFO ](ServletWebServerApplicationContext.java: prepareWebApplicationContext(): 291) : Root WebApplicationContext: initialization completed in 1386 ms
+[2023-09-08 11:54:22][restartedMain][INFO ](WelcomePageHandlerMapping.java: <init>(): 57) : Adding welcome page: class path resource [static/index.html]
+[2023-09-08 11:54:23][restartedMain][INFO ](OptionalLiveReloadServer.java: startServer(): 59) : LiveReload server is running on port 35729
+[2023-09-08 11:54:23][restartedMain][INFO ](TomcatWebServer.java: start(): 220) : Tomcat started on port(s): 80 (http) with context path ''
+[2023-09-08 11:54:23][restartedMain][INFO ](StartupInfoLogger.java: logStarted(): 57) : Started SpringMvcApplication in 2.887 seconds (process running for 3.704)

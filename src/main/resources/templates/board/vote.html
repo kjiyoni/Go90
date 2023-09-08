@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html  xmlns:th="http://www.thymeleaf.org" lang="ko">
+
+<th:block
+	th:replace="~{/layout/layoutv2 :: setContent(~{this :: title}, ~{this :: content},~{this :: css})}">
+
+	<th:block th:fragment="title">
+			<title>갤러리</title>
+	</th:block>
+
+    <!-- 반응형 구조 만들기 -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+
+	<th:block th:fragment="css">
+    <link rel="stylesheet" href="/css/vote1.css">
+    <style>
+    	#sh_content99{
+    		margin: 50px 30px;
+    	}
+    </style>
+    </th:block>
+
+   
+<th:block th:fragment="content">
+
+<!-- 상단 메뉴 시작 -->
+<div id="sh_container">
+            <div id="sh_container_wrapper">
+                <!-- 서브 비주얼영역 -->
+                <div id="sub_main_banner">
+                    <div id="sh_content_tit">
+                        <h3>갤러리</h3>
+                        <p><a href="/index.html">HOME</a> 
+         &nbsp;&nbsp;&nbsp;<img src="/img/ar.png" alt="화살표" style="margin-top:-3px"/>&nbsp;&nbsp;&nbsp; SCHEDULE &nbsp;&nbsp;&nbsp;<img src="img/ar.png" alt="화살표" style="margin-top:-3px"/>&nbsp;&nbsp;&nbsp; 클럽 일정</p>
+                    </div>
+                </div>
+                <!-- 서브 비주얼영역 끝 -->
+
+                <!-- 서브메뉴 -->
+                <div id="sh_aside">
+                    <div id="sh_aside_wrapper">
+                        <ul id="sh_snb">
+                            <li class='l_menu_ON'>
+                                <a href="page6.html">SHINING레져 소개</a>
+                            </li>
+                            <li class='l_menu_OFF'>
+                                <a href="../bbs/board34fb.html?bo_table=table7">센터 갤러리</a>
+                            </li>
+                            <li class='l_menu_OFF'>
+                                <a href="../bbs/board9208.html?bo_table=table8">오시는길</a>
+                            </li>
+                        </ul>
+                        <!-- 소분류 끝 -->
+                    </div>
+                </div>
+                </div>
+                </div>
+                
+<!-- 상단 메뉴 끝 -->
+
+
+       <div id="sh_container_1150">
+      <!-- 콘텐츠영역 -->
+      <div id="sh_content99">
+   
+<!-- 게시판 목록 시작 [s] -->
+<div id="sh_bo_gall">
+
+    <!-- 게시판 분류 [s] { -->
+        <!-- 게시판 분류 [e] -->  
+
+    <!-- rss / 검색 [s] -->
+    <div class="list_top">
+              <fieldset id="sh_bo_sch">
+            <legend>게시물 검색</legend>
+            <form name="fsearch" method="get">
+            <input type="hidden" name="bo_table" value="table24">
+            <input type="hidden" name="sca" value="">
+            <input type="hidden" name="sop" value="and">
+            <label for="sfl" class="sound_only">검색대상</label>
+            <select name="sfl" id="sfl">
+                <option value="wr_subject">제목</option>
+                <option value="wr_content">내용</option>
+                <option value="wr_subject||wr_content">제목+내용</option>
+                <option value="mb_id,1">아이디</option>
+                <option value="wr_name,1">글쓴이</option>
+            </select>
+            <label for="stx" class="sound_only">검색어<strong class="sound_only"> 필수</strong></label>
+            <input type="text" name="stx" value="" required id="stx" class="sch_input" size="25" maxlength="20">
+            <input type="image" src="../img/sh_search.png" alt="검색" name="submit" value="submit" />
+            </form>
+        </fieldset>        
+    </div>
+   <!-- rss / 검색 [e] -->
+    
+    <form name="fboardlist"  id="fboardlist" action="http://lei1009.shiningcorp.com/bbs/board_list_update.php" onsubmit="return fboardlist_submit(this);" method="post">
+    <input type="hidden" name="bo_table" value="table24">
+    <input type="hidden" name="sfl" value="">
+    <input type="hidden" name="stx" value="">
+    <input type="hidden" name="spt" value="">
+    <input type="hidden" name="sst" value="wr_num, wr_reply">
+    <input type="hidden" name="sod" value="">
+    <input type="hidden" name="page" value="1">
+    <input type="hidden" name="sw" value="">
+
+    
+    <ul id="sh_gall_ul" class="gall_row">
+
+              <li class="gall_li">
+            <div class="gall_chk">
+                            <span class="sound_only">
+                    4                </span>
+            </div>
+            
+            <!-- gall_con [s] -->
+            <div class="gall_con">
+                <div class="gall_img">
+                    <a href="boardc8e1.html?bo_table=table24&amp;wr_id=8">
+                    <img src="../data/file/table24/thumb-1935566037_O4bMdz20_d8d68a4ce42e2357627e519532e1243c94c542e7_311x208.png" alt="기업 샘플디자인입니다." >                    </a>
+                </div>
+                <div class="gall_txt">
+                    <div class="subject">
+                                          <a href="boardc8e1.html?bo_table=table24&amp;wr_id=8" class="tit">
+                            기업 샘플디자인입니다.                                                    </a>
+                    </div>
+                    <div class="desc">            
+                                          <dl>
+                            <dt>디자인코드</dt>
+                            <dd>co0000</dd>
+                        </dl>
+                                          <dl>
+                            <dt>디자인 비용</dt>
+                            <dd>프리 제공 (세팅비 별도)</dd>
+                        </dl>
+                                          <dl>
+                            <dt>설명</dt>
+                            <dd>샤이닝에서 제공하는 기업 샘플디자인입니다.</dd>
+                        </dl>
+                                         <p class="desc_txt">샤이닝에서 제공하는 기업 샘플디자인입니다. 샤이닝에서 제공하는 기업 샘플디자인입니다. 샤이닝에서 제공하는 기업 샘플디자인입니다. 샤이닝에서 제공하는 기업...</p>                    </div>                               
+                </div>                
+            </div>
+            <!-- gall_con [e] -->
+            
+        </li>
+                <li class="gall_li">
+            <div class="gall_chk">
+                            <span class="sound_only">
+                    3                </span>
+            </div>
+            
+            <!-- gall_con [s] -->
+            <div class="gall_con">
+                <div class="gall_img">
+                    <a href="boardb53d.html?bo_table=table24&amp;wr_id=7">
+                    <img src="../data/file/table24/thumb-1935566037_GQI6zFtx_3560e5c1c806239baa27d910beb7d4b1f151da40_311x208.png" alt="기업 샘플디자인입니다." >                    </a>
+                </div>
+                <div class="gall_txt">
+                    <div class="subject">
+                                          <a href="boardb53d.html?bo_table=table24&amp;wr_id=7" class="tit">
+                            기업 샘플디자인입니다.                                                    </a>
+                    </div>
+                    <div class="desc">            
+                                          <dl>
+                            <dt>디자인코드</dt>
+                            <dd>co0000</dd>
+                        </dl>
+                                          <dl>
+                            <dt>디자인 비용</dt>
+                            <dd>무료</dd>
+                        </dl>
+                                          <dl>
+                            <dt>설명</dt>
+                            <dd>무료샘플디자인</dd>
+                        </dl>
+                                         <p class="desc_txt">기업 샘플디자인입니다.</p>                    </div>                               
+                </div>                
+            </div>
+            <!-- gall_con [e] -->
+            
+        </li>
+                <li class="gall_li">
+            <div class="gall_chk">
+                            <span class="sound_only">
+                    2                </span>
+            </div>
+            
+            <!-- gall_con [s] -->
+            <div class="gall_con">
+                <div class="gall_img">
+                    <a href="board34b8.html?bo_table=table24&amp;wr_id=6">
+                    <img src="../data/file/table24/thumb-1935566037_h1eS8cg9_4de4edf86410768e29233356e011ee3eb2065077_311x208.png" alt="기업 샘플디자인입니다." >                    </a>
+                </div>
+                <div class="gall_txt">
+                    <div class="subject">
+                                          <a href="board34b8.html?bo_table=table24&amp;wr_id=6" class="tit">
+                            기업 샘플디자인입니다.                                                    </a>
+                    </div>
+                    <div class="desc">            
+                                          <dl>
+                            <dt>디자인코드</dt>
+                            <dd>co0000</dd>
+                        </dl>
+                                          <dl>
+                            <dt>디자인 비용</dt>
+                            <dd>무료</dd>
+                        </dl>
+                                          <dl>
+                            <dt>설명</dt>
+                            <dd>무료샘플디자인</dd>
+                        </dl>
+                                         <p class="desc_txt">기업 샘플디자인입니다.&nbsp;</p>                    </div>                               
+                </div>                
+            </div>
+            <!-- gall_con [e] -->
+            
+        </li>
+                <li class="gall_li">
+            <div class="gall_chk">
+                            <span class="sound_only">
+                    1                </span>
+            </div>
+            
+            <!-- gall_con [s] -->
+            <div class="gall_con">
+                <div class="gall_img">
+                    <a href="boardb2e7.html?bo_table=table24&amp;wr_id=5">
+                    <img src="../data/file/table24/thumb-1935566037_Uojqc1yY_85a6130526695d659e481118b4024613b2ec07e2_311x208.png" alt="기업 샘플디자인입니다." >                    </a>
+                </div>
+                <div class="gall_txt">
+                    <div class="subject">
+                                          <a href="boardb2e7.html?bo_table=table24&amp;wr_id=5" class="tit">
+                            기업 샘플디자인입니다.                                                    </a>
+                    </div>
+                    <div class="desc">            
+                                          <dl>
+                            <dt>디자인코드</dt>
+                            <dd>co0000</dd>
+                        </dl>
+                                          <dl>
+                            <dt>디자인 비용</dt>
+                            <dd>무료</dd>
+                        </dl>
+                                          <dl>
+                            <dt>설명 </dt>
+                            <dd>무료샘플디자인</dd>
+                        </dl>
+                                         <p class="desc_txt">기업 샘플디자인입니다.&nbsp;</p>                    </div>                               
+                </div>                
+            </div>
+            <!-- gall_con [e] -->
+            
+        </li>
+                    </ul>
+
+        
+    <!-- 버튼 [s] -->
+    <div class="btn_area">
+       <!-- 관리자 버튼 [s] -->
+       <ul class="adm_btns">
+                                            </ul>
+      <!-- 관리자 버튼 [e] -->
+          </div>
+    <!-- 버튼 [e] -->
+    </form>
+</div>
+<!-- 게시판 목록 끝 [e] -->
+
+
+
+          </div><!-- sh_content -->
+        </div> <!-- sh_container_1150 -->
+
+
+
+</th:block>
+
+</th:block>
+
+</html>

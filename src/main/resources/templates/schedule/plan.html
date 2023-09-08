@@ -1,0 +1,320 @@
+<!DOCTYPE HTML>
+<html  xmlns:th="http://www.thymeleaf.org" lang="ko">
+
+<th:block
+	th:replace="~{/layout/layoutv2 :: setContent(~{this :: title}, ~{this :: content},~{this :: css})}">
+
+	<th:block th:fragment="title">
+			<title>일정 관리</title>
+	</th:block>
+
+    <!-- 반응형 구조 만들기 -->
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+
+
+	<th:block th:fragment="css">
+    <!-- 내부 CSS 스타일 지정 -->
+    <style>
+
+
+        /* [컨테이너 크기 설정] */
+        #calendar {
+            width: 75%;
+            height: 90%;
+            margin: 0 auto;
+            position: relative;
+            top: 5%;
+            margin-top : 100px;
+        }
+
+        .modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    width: 80%;
+    max-width: 600px;
+    background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+    border-radius: 10px; /* 가장자리를 둥글게 만듭니다. */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* 그림자 효과 조정 */
+    padding: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif; /* 폰트 설정 */
+    font-size : 1.5em;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333; /* 닫기 버튼 색상 조정 */
+}
+    </style>
+
+
+
+
+
+    <!-- ===================================================================================================== -->
+    <!-- [CDN 주소 설정] -->
+    <!-- ===================================================================================================== -->
+    <link href='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/main.min.css' rel='stylesheet' />
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/main.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@5.8.0/locales-all.min.js'></script>
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.10.7/dayjs.min.js"></script>
+    <!-- ===================================================================================================== -->
+
+</th:block>
+
+
+
+
+    <!-- ===================================================================================================== -->
+    <!-- [자바스크립트 코드 지정] -->
+    <!-- ===================================================================================================== -->
+   
+<th:block th:fragment="content">
+
+<!-- 상단 메뉴 시작 -->
+<div id="sh_container">
+            <div id="sh_container_wrapper">
+                <!-- 서브 비주얼영역 -->
+                <div id="sub_main_banner">
+                    <div id="sh_content_tit">
+                        <h3>SCHEDULE</h3>
+                        <p><a href="/index.html">HOME</a> 
+         &nbsp;&nbsp;&nbsp;<img src="/img/ar.png" alt="화살표" style="margin-top:-3px"/>&nbsp;&nbsp;&nbsp; SCHEDULE &nbsp;&nbsp;&nbsp;<img src="img/ar.png" alt="화살표" style="margin-top:-3px"/>&nbsp;&nbsp;&nbsp; 클럽 일정</p>
+                    </div>
+                </div>
+                <!-- 서브 비주얼영역 끝 -->
+
+                <!-- 서브메뉴 -->
+                <div id="sh_aside">
+                    <div id="sh_aside_wrapper">
+                        <ul id="sh_snb">
+                            <li class='l_menu_ON'>
+                                <a href="page6.html">SHINING레져 소개</a>
+                            </li>
+                            <li class='l_menu_OFF'>
+                                <a href="../bbs/board34fb.html?bo_table=table7">센터 갤러리</a>
+                            </li>
+                            <li class='l_menu_OFF'>
+                                <a href="../bbs/board9208.html?bo_table=table8">오시는길</a>
+                            </li>
+                        </ul>
+                        <!-- 소분류 끝 -->
+                    </div>
+                </div>
+                </div>
+                </div>
+                
+<!-- 상단 메뉴 끝 -->
+
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>일정 상세 정보</h2>
+            <p>여기에 일정 내용을 표시합니다.</p>
+        </div>
+    </div>
+
+    <!-- [컨테이너 생성] -->
+    <div id="calendar"></div>
+
+
+
+    <script>
+
+
+
+        // [html 최초 로드 및 이벤트 상시 대기 실시] 
+        window.onload = async function () {
+            console.log("");
+            console.log("=========================================");
+            console.log("[window onload] : [start]");
+            console.log("=========================================");
+            console.log("");
+
+
+            // [현재 날짜 및 시간 확인]
+            var korea_date = dayjs(new Date().toLocaleString("en-US", { timeZone: "Asia/Seoul" }));
+            var format = "YYYY-MM-DDTHH:mm:ss"; // 포맷 타입
+            var koreaNow = korea_date.format(format);
+
+
+            // [calendar 객체 지정]
+            var calendarElement = document.getElementById("calendar");
+
+
+            // [full-calendar 생성]
+            var calendar = new FullCalendar.Calendar(calendarElement, {
+
+                expandRows: true, // 화면에 맞게 높이 재설정
+                slotMinTime: '00:00', // 캘린더에서 일정 시작 시간
+                slotMaxTime: '23:59', // 캘린더에서 일정 종료 시간
+
+                // 해더에 표시할 툴바
+                headerToolbar: {
+                    left: 'prev,next', // 이전, 다음
+                    //left: 'prev,next,today', // 이전, 다음, 오늘
+                    center: 'title', // 중앙 타이틀
+                    right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek' // 월, 일
+                    //right: 'dayGridMonth,timeGridWeek,timeGridDay,listWeek' // 월, 주, 일, 일정목록
+                },
+
+                initialView: 'dayGridMonth', // 초기 로드 될때 보이는 캘린더 화면 (기본 설정: 달)
+
+                //initialDate: '2023-08-06', // 초기 날짜 설정 (설정하지 않으면 오늘 날짜가 보인다.)
+
+                navLinks: true, // 날짜를 선택하면 Day 캘린더나 Week 캘린더로 링크
+
+                editable: true, // 수정 가능 여부
+
+                selectable: true, // 달력 일자 드래그 설정가능
+
+                nowIndicator: true, // 현재 시간 마크
+
+                dayMaxEvents: true, // 이벤트가 오버되면 높이 제한 (+ 몇 개식으로 표현)
+
+                locale: 'ko', // 한국어 설정
+
+                selectLongPressDelay: 300, // 선택 클릭 발동 시간 
+
+                eventAdd: function (obj) { // 이벤트가 추가되면 발생하는 이벤트
+                    console.log("");
+                    console.log("=========================================");
+                    console.log("[window onload] : [eventAdd]");
+                    console.log("-----------------------------------------");
+                    console.log("[eventAdd] : " + JSON.stringify(obj));
+                    console.log("=========================================");
+                    console.log("");
+                },
+
+                eventChange: function (obj) { // 이벤트가 수정되면 발생하는 이벤트
+                    console.log("");
+                    console.log("=========================================");
+                    console.log("[window onload] : [eventChange]");
+                    console.log("-----------------------------------------");
+                    console.log("[eventChange] : " + JSON.stringify(obj));
+                    console.log("=========================================");
+                    console.log("");
+                },
+
+                eventRemove: function (obj) { // 이벤트가 삭제되면 발생하는 이벤트
+                    console.log("");
+                    console.log("=========================================");
+                    console.log("[window onload] : [eventRemove]");
+                    console.log("-----------------------------------------");
+                    console.log("[eventRemove] : " + JSON.stringify(obj));
+                    console.log("=========================================");
+                    console.log("");
+                },
+
+                //*
+                eventClick: function (info) { // 등록된 일정 클릭 이벤트
+                    console.log("");
+                    console.log("=========================================");
+                    console.log("[window onload] : [eventClick]");
+                    console.log("-----------------------------------------");
+                    console.log("[eventClick] : " + JSON.stringify(info));
+                    console.log("=========================================");
+                    console.log("");
+
+                    // 더블클릭시 삭제
+                    if (info.jsEvent.detail === 2) {
+                        // 캘린더에서 해당 일정 삭제
+                        info.event.remove();
+                        closeEventModal();
+                    } else {
+                        displayEventModal(info.event);
+                    }
+
+                },
+
+
+
+                select: function (arg) { // 캘린더에서 특정 일자 선택 및 드래그로 일정 등록
+                    console.log("");
+                    console.log("=========================================");
+                    console.log("[window onload] : [select]");
+                    console.log("-----------------------------------------");
+                    console.log("[arg] : " + JSON.stringify(arg));
+                    console.log("=========================================");
+                    console.log("");
+
+                    var title = prompt('일정 제목을 입력하세요');
+                    if (title) {
+                        calendar.addEvent({
+                            title: title,
+                            start: arg.start,
+                            end: arg.end,
+                            allDay: arg.allDay
+                        })
+                    }
+                    calendar.unselect()
+                },
+
+                // 이벤트 일정 등록
+                events: [
+                    { title: 'Go90', start: koreaNow, end: koreaNow }
+                ]
+            });
+
+            function displayEventModal(event) {
+                var modal = document.getElementById("eventModal");
+                var modalContent = modal.querySelector(".modal-content");
+
+                // 모달 내용을 업데이트
+                modalContent.innerHTML = `
+        <span class="close" onclick="closeEventModal()">&times;</span>
+        <h2>${event.title}</h2>
+        <p>시작일: ${event.start.toLocaleString()}</p>
+        <p>종료일: ${event.end.toLocaleString()}</p>
+        <p>장소: 서울특별시 노원구</p>
+        <p>상세설명: 회식 하겠슴돵</p>
+
+    `;
+
+
+                const closeSpan = document.querySelector('.close').addEventListener('click', ()=> {
+                    closeEventModal();
+                });
+
+                // 모달 창을 표시
+                modal.style.display = "block";
+            }
+            // 모달 창 닫기
+            function closeEventModal() {
+    var modal = document.getElementById("eventModal");
+    modal.style.display = "none";
+}
+
+// 모달 내부의 close 요소를 선택하고 onclick 이벤트 추가
+var closeBtn = document.querySelector(".modal-content .close");
+closeBtn.onclick = closeEventModal;
+
+
+
+
+// [캘린더 랜더링]
+            calendar.render();
+
+        };
+
+        
+
+
+    </script>
+
+
+</th:block>
+
+</th:block>
+
+</html>
